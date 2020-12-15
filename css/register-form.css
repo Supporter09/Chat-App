@@ -1,0 +1,28 @@
+#register-form{
+    padding: 100px;
+    width: 700px;
+    margin:0 auto;
+    background-color: #EAEDF2;
+    line-height: 30px;
+}
+
+#register-form > h2{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px 0px;
+}
+
+#register-btn{
+    width: 100%;
+    font-size: 18px;
+    color: white;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-top:15px;
+    background: linear-gradient(90deg, #1CD8D2 0%, #93EDC7 100%);
+}
+
+#to-login{
+    text-align: center;
+}
