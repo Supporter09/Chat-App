@@ -12,7 +12,7 @@ $template.innerHTML=/*html*/ `
         <button id='login-btn' >Sign In</button>
 
         <div id="to-login">
-        You haven't got an account? <a href="#">Sign Up</a>
+        You haven't got an account? <a href="#!/sign-up">Sign Up</a>
         </div>
     <form>
 ` 
@@ -55,7 +55,7 @@ export default class RegisterForm extends HTMLElement {
                if (result.empty) {
                    alert('Email hoac mat khau khong chinh xac')
                }else{
-                   alert("Dang nhap thanh cong");
+                   router.navigate('/chat')
                }
             }
         }

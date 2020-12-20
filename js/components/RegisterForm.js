@@ -14,7 +14,7 @@ $template.innerHTML=/*html*/ `
         <button id='register-btn' >Sign Up</button>
 
         <div id="to-login">
-        You have already got an account? <a href="#">Sign In</a>
+        You have already got an account? <a href="#!/sign-in">Sign In</a>
         </div>
     <form>
 ` 
